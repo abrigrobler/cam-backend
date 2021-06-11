@@ -1,0 +1,11 @@
+---
+application:
+  name: "camalia-api"
+  project: "camalia"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-camalia-api"
+  routes:
+  - application_name: "camalia-api"
+    paths:
+    - "/*"
