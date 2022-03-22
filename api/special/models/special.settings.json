@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specials",
+  "info": {
+    "name": "Special"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Special_title": {
+      "type": "string"
+    },
+    "Special_description_short": {
+      "type": "string"
+    },
+    "Special_description_long": {
+      "type": "string"
+    },
+    "Contact_number": {
+      "type": "string"
+    },
+    "Address_line_1": {
+      "type": "string"
+    },
+    "Address_line_2": {
+      "type": "string"
+    },
+    "Tags": {
+      "type": "json"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "Days": {
+      "type": "json"
+    }
+  }
+}
