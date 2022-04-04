@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Restaurants",
+  "info": {
+    "name": "Restuarants",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Contact_number": {
+      "type": "string"
+    },
+    "Address_line_1": {
+      "type": "string"
+    },
+    "Address_line_2": {
+      "type": "string"
+    }
+  }
+}

@@ -11,9 +11,6 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "Name": {
-      "type": "string"
-    },
     "Special_title": {
       "type": "string"
     },
@@ -21,15 +18,6 @@
       "type": "string"
     },
     "Special_description_long": {
-      "type": "string"
-    },
-    "Contact_number": {
-      "type": "string"
-    },
-    "Address_line_1": {
-      "type": "string"
-    },
-    "Address_line_2": {
       "type": "string"
     },
     "Tags": {
@@ -46,8 +34,8 @@
       "default": true,
       "required": true
     },
-    "Email": {
-      "type": "email"
+    "restuarant": {
+      "model": "restuarants"
     }
   }
 }
