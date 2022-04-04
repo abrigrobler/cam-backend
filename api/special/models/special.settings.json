@@ -34,7 +34,7 @@
       "default": true,
       "required": true
     },
-    "restuarant": {
+    "restaurant": {
       "model": "restuarants"
     }
   }
