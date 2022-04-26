@@ -36,6 +36,15 @@
     },
     "restaurant": {
       "model": "restuarants"
+    },
+    "from": {
+      "type": "time"
+    },
+    "to": {
+      "type": "time"
+    },
+    "additional_info": {
+      "type": "richtext"
     }
   }
 }
