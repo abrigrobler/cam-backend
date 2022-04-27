@@ -45,6 +45,10 @@
     },
     "additional_info": {
       "type": "richtext"
+    },
+    "selected_days": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
