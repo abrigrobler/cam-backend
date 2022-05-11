@@ -25,6 +25,12 @@
     },
     "Address_line_2": {
       "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
     }
   }
 }
