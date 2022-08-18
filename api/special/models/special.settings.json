@@ -49,6 +49,9 @@
     "selected_days": {
       "type": "boolean",
       "default": false
+    },
+    "custom_time_caption": {
+      "type": "string"
     }
   }
 }
