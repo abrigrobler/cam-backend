@@ -31,6 +31,9 @@
     },
     "longitude": {
       "type": "float"
+    },
+    "loadshedding_info": {
+      "type": "text"
     }
   }
 }

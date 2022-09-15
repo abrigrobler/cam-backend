@@ -52,6 +52,13 @@
     },
     "custom_time_caption": {
       "type": "string"
+    },
+    "is_available_during_loadshedding": {
+      "type": "boolean",
+      "default": true,
+      "private": false,
+      "required": false,
+      "unique": false
     }
   }
 }
